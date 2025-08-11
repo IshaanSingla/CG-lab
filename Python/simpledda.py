@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
-
+import matplotlib
+matplotlib.use('TkAgg')
 # Grid size
 grid_size = 10
 clicked_points = []
