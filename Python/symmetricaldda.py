@@ -7,7 +7,6 @@ grid_size = 10
 clicked_points = []
 
 def symmetrical_dda(x1, y1, x2, y2):
-    """Symmetrical DDA with (x + 0.5, y + 0.5) virtual grid adjustment."""
     dx = x2 - x1
     dy = y2 - y1
 
